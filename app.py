@@ -1,4 +1,5 @@
 from model import addition,sub
+from multiply import multiplication
 def main():
     print("WELCOME")
 
@@ -13,6 +14,8 @@ def main():
         result = addition(a,b)
     elif user_input == "2":
         result = sub(a,b)
+    elif user_input == "3":
+        result = multiplication(a,b)    
 
     print("Result",   result)    
 
